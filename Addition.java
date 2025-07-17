@@ -1,11 +1,10 @@
 public class Addition {
-public static int(int a,int b)
+    public static int add(int a, int b) {
+        return a + b;
+    }
 
-{
-return a + b;
-}
-public static void main(String[] args){
-int sum = add(15,25):
-System.out.println("sum of 15 and 25 is:"+sum);
-}
+    public static void main(String[] args) {
+        int sum = add(15, 25);
+        System.out.println("Sum of 15 and 25 is: " + sum);
+    }
 }
